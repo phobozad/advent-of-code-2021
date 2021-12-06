@@ -86,7 +86,6 @@ class day5:
         overlapCount = np.count_nonzero(ventMap >= 2)
 
         print(f"All Overlap Points: {overlapCount}")
-        pass
 
 if __name__ == "__main__":
     day5()
